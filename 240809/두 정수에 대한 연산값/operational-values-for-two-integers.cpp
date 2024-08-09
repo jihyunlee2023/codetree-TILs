@@ -12,7 +12,6 @@ int main() {
 }
 
 int compute(int &a, int &b){
-    size(a, b);
     if(a>b){
         a+=25;
         b*=2;
