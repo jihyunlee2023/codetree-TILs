@@ -17,7 +17,8 @@ int main() {
 bool alpa(string word){
     int n=word.length();
     for(int i=1; i<n; i++){
-        return word[0]!=word[i];
+        if(word[0]!=word[i])
+            return true;
     }
     return false;
 }
