@@ -23,7 +23,7 @@ int main() {
     }
     
     int min = studentScore[0];
-    int second = 101;
+    int second = 10001;
     
     for (int i = 1; i < 7; i++) {
         if (studentScore[i] < min) {
